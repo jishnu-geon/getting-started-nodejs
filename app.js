@@ -21,6 +21,11 @@ app.get('/health', (req, res) => res.send({"status": "OK", "time": new Date()}))
 var port = process.env.PORT || 8080;
 app.listen(port);
 
+// setInterval(callback, delay, [arg1, arg2, ...])
+// callback: The function to execute at each interval.
+// delay: Time in milliseconds between each execution of the callback.
+// arg1, arg2, ... (optional): Additional arguments passed to the callback function.
+
 setInterval(function(str1, str2) {
     var text = makeid(40);
     var ran = Math.random()
