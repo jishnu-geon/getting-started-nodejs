@@ -34,7 +34,7 @@ setInterval(function(str1, str2) {
   //console.log(logs[i])
   i++
   if (i == logs.length) i = 0
-}, 1, "Hello.", "How are you?");
+}, 2000, "Hello.", "How are you?");
 
 function makeid(length) {
   var text = "";
