@@ -35,11 +35,11 @@ setInterval(function(str1, str2) {
         text = makeid(40)+ ""+makeid(40)+ ""+makeid(40)
     else if (ran > 0.25)
         text = makeid(40)+ ""+makeid(40)
-  console.log(str1 + "" + str2 + "" + text+ "" +makeid(40));
+  console.log(str1 + "" + str2 + "" + text+ "");
   //console.log(logs[i])
   i++
   if (i == logs.length) i = 0
-}, 5000, "Hello.", "How are you?");
+}, 60000, "Hello!", "How are you?");
 
 function makeid(length) {
   var text = "";
