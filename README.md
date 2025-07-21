@@ -26,6 +26,7 @@ Now point your browser at `http://localhost:8080` to see:
 
 ```
 {"cities":["Amsterdam","Berlin","New York","San Francisco","Tokyo"]}
+
 ```
 
 ## Getting started with deploying application through Devtron
